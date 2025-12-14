@@ -14,12 +14,22 @@ const Index = () => {
             </p>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight text-balance">
-              We turn invisible vocal skills into measurable, trainable signals.
+              Turn Invisible Vocal Skills Into Measurable Mastery
             </h1>
             
             <p className="text-xl text-text-secondary max-w-2xl leading-relaxed">
-              A learning platform for singers and teachers who want real control — not vague advice.
+              A research-driven platform that quantifies the biomechanics of singing — so serious learners and teachers can drive real improvement.
             </p>
+            
+            <div className="pt-4">
+              <a 
+                href="mailto:founder@voxlabs.in?subject=Private%20Testing%20Interest"
+                className="inline-flex items-center gap-3 px-6 py-3 bg-primary/10 border border-primary/30 text-primary hover:bg-primary/20 transition-colors font-medium rounded"
+              >
+                <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                Email for Private Testing
+              </a>
+            </div>
           </div>
         </div>
         
@@ -38,23 +48,23 @@ const Index = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="space-y-3">
-              <p className="text-foreground font-medium">Practice without insight</p>
+              <p className="text-foreground font-medium">Blind practice</p>
               <p className="text-text-secondary text-sm leading-relaxed">
-                Singers practice daily but don't know what is actually improving.
+                Most singers practice daily without knowing what actually improves.
               </p>
             </div>
             
             <div className="space-y-3">
-              <p className="text-foreground font-medium">Delayed feedback</p>
+              <p className="text-foreground font-medium">Gaps between sessions</p>
               <p className="text-text-secondary text-sm leading-relaxed">
-                Teachers cannot give real-time feedback between sessions.
+                Teachers lack a way to monitor progress between sessions.
               </p>
             </div>
             
             <div className="space-y-3">
-              <p className="text-foreground font-medium">Scoring over skill</p>
+              <p className="text-foreground font-medium">Scores without insight</p>
               <p className="text-text-secondary text-sm leading-relaxed">
-                Existing apps score outcomes but don't teach control.
+                Current tools score outcomes but don't explain why or how improvement happens.
               </p>
             </div>
           </div>
@@ -69,56 +79,71 @@ const Index = () => {
           </p>
           
           <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-12 max-w-2xl">
-            What Voxlabs does differently
+            What Voxlabs Does Differently
           </h2>
           
           <div className="space-y-8">
             <div className="flex gap-6 items-start">
               <span className="text-primary font-mono text-sm mt-1">01</span>
-              <p className="text-foreground text-lg">
-                Measures pitch stability together with loudness and timing.
-              </p>
+              <div>
+                <p className="text-foreground text-lg font-medium mb-1">
+                  Measures pitch with context
+                </p>
+                <p className="text-text-secondary">
+                  We model pitch stability relative to loudness and breath.
+                </p>
+              </div>
             </div>
             
             <div className="h-px bg-border" />
             
             <div className="flex gap-6 items-start">
               <span className="text-primary font-mono text-sm mt-1">02</span>
-              <p className="text-foreground text-lg">
-                Gradually removes reference tones to build internal hearing.
-              </p>
+              <div>
+                <p className="text-foreground text-lg font-medium mb-1">
+                  Builds internal hearing
+                </p>
+                <p className="text-text-secondary">
+                  Reference tones fade intentionally so singers rely on their own auditory feedback.
+                </p>
+              </div>
             </div>
             
             <div className="h-px bg-border" />
             
             <div className="flex gap-6 items-start">
               <span className="text-primary font-mono text-sm mt-1">03</span>
-              <p className="text-foreground text-lg">
-                Focuses on control signals, not performance scoring.
-              </p>
+              <div>
+                <p className="text-foreground text-lg font-medium mb-1">
+                  Quantifies control, not performance
+                </p>
+                <p className="text-text-secondary">
+                  We track motor-control signals (timing, sustain, stability), not social metrics.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why This Is Hard */}
+      {/* Why Vocal Learning Is Hard */}
       <section className="py-24 border-t border-border">
         <div className="container max-w-4xl px-6">
           <p className="text-primary font-mono text-xs tracking-widest uppercase mb-8">
             The Challenge
           </p>
           
+          <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-6 max-w-2xl">
+            Why Vocal Learning Is Hard
+          </h2>
+          
           <div className="max-w-2xl space-y-6">
             <p className="text-text-secondary leading-relaxed">
-              Vocal learning is difficult because pitch, loudness, breath, and timing interact non-linearly.
-            </p>
-            
-            <p className="text-text-secondary leading-relaxed">
-              Most tools simplify the problem.
+              Pitch, loudness, breath, and timing are interdependent. Existing tools score inputs without modeling the control system behind them.
             </p>
             
             <p className="text-foreground font-medium">
-              Voxlabs models the underlying control behaviour instead.
+              Voxlabs models that system instead.
             </p>
           </div>
         </div>
@@ -140,16 +165,16 @@ const Index = () => {
             </div>
             
             <div className="space-y-2">
-              <p className="text-foreground font-medium">Music teachers & trainers</p>
+              <p className="text-foreground font-medium">Music educators & coaches</p>
               <p className="text-text-tertiary text-sm">
                 Who need objective tools
               </p>
             </div>
             
             <div className="space-y-2">
-              <p className="text-foreground font-medium">Choirs & programs</p>
+              <p className="text-foreground font-medium">Choirs & structured programs</p>
               <p className="text-text-tertiary text-sm">
-                With structured learning environments
+                With learning environments
               </p>
             </div>
           </div>
@@ -160,24 +185,20 @@ const Index = () => {
       <section className="py-24 border-t border-border">
         <div className="container max-w-4xl px-6">
           <p className="text-primary font-mono text-xs tracking-widest uppercase mb-8">
-            Status
+            Current Status
           </p>
           
           <div className="max-w-2xl space-y-6">
             <p className="text-foreground text-lg">
-              Voxlabs is currently in private MVP testing.
+              We're in private MVP testing with early users and educators.
             </p>
             
-            <p className="text-text-secondary leading-relaxed">
-              We are working closely with early users and educators.
-            </p>
-            
-            <div className="pt-4">
+            <div className="pt-2">
               <a 
-                href="mailto:hello@voxlabs.co"
+                href="mailto:founder@voxlabs.in"
                 className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
               >
-                hello@voxlabs.co
+                founder@voxlabs.in
                 <span className="text-primary/50">→</span>
               </a>
             </div>
@@ -198,14 +219,11 @@ const Index = () => {
             
             <div className="flex flex-col md:items-end gap-2">
               <a 
-                href="mailto:hello@voxlabs.co"
+                href="mailto:founder@voxlabs.in"
                 className="text-text-secondary hover:text-foreground transition-colors text-sm"
               >
-                hello@voxlabs.co
+                founder@voxlabs.in
               </a>
-              <p className="text-text-tertiary text-sm">
-                Built in India
-              </p>
             </div>
           </div>
         </div>
