@@ -226,6 +226,10 @@ const Index = () => {
               </a>
             </div>
           </div>
+            {/* Legal line */}
+          <div className="mt-8 text-center text-xs text-text-tertiary">
+            VoxLabs is a product of OORGA LLP.
+          </div>
         </div>
       </footer>
     </div>
