@@ -229,9 +229,17 @@ const Index = () => {
         </div>
       </footer>
     </div>
-    <div style="margin-top:40px; font-size:12px; opacity:0.7; text-align:center;">
+   <div
+  style={{
+    marginTop: "40px",
+    fontSize: "12px",
+    opacity: 0.7,
+    textAlign: "center",
+  }}
+>
   VoxLabs is a product of OORGA LLP.
 </div>
+
 
   );
 };
